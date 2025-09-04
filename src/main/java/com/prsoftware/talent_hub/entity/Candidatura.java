@@ -39,5 +39,4 @@ public class Candidatura {
     @PrePersist
     public void prePersist(){this.dataCandidatura = LocalDateTime.now(); if(status == null) status=Status.EM_ANALISE; }
 
-
 }
