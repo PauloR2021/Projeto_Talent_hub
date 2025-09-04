@@ -1,9 +1,4 @@
 package com.prsoftware.talent_hub.entity;
-
-import javax.management.relation.Role;
-
-import com.fasterxml.jackson.databind.annotation.EnumNaming;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
